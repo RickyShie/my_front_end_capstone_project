@@ -1,0 +1,30 @@
+.rounded-button {
+    background-color: #F4CE14; /* Example color, can be adjusted */
+    color: #495E57; /* Text color */
+    padding: 10px 20px; /* Adjust for size */
+    border: none;
+    border-radius: 6px; /* Large border-radius gives rounded effect */
+    font-size: 16px; /* Adjust text size */
+    cursor: pointer;
+    outline: none; /* Removes default focus styling, can be adjusted if desired */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    color: var(--Primary-dark-color, #495E57);
+    text-align: center;
+
+    /* Section categories */
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+
+.rounded-button:hover {
+    background-color: #495E57; /* Darker shade for hover */
+    color: #F4CE14;
+}
+
+.rounded-button:active {
+    background-color: #F4CE14; /* Even darker shade for active (pressed) state */
+}

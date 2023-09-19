@@ -1,8 +1,9 @@
 import React from "react";
 
-function Main(){
+function Main(props){
     return (
-        <main>This is main section</main>
+        <main>{props.children}</main>
+        
     );
 }
 
