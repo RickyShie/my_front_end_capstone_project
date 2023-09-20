@@ -1,0 +1,35 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @media (min-width: 768px) {
+    .header-container {
+        grid-template-columns: 1fr;
+        place-items: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .nav-container {
+        flex-direction: row;
+        gap: 5vw;
+    }
+
+  }
+
+  @media (min-width: 1024px) {
+    .header-container {
+        grid-template-columns: 1fr 6fr;
+        place-items: center;
+        width: 40vw;
+        margin-left: 5px;
+        justify-items: center;
+    }
+    .nav-container {
+        flex-direction: row;
+        gap: 5vw;
+        align-items: center;
+    }
+
+  }

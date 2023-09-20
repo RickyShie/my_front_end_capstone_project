@@ -3,7 +3,7 @@ import './Button.css'
 
 function Button(props) {
     return (
-        <button className="rounded-button" onClick={props.OnClick}>
+        <button className="rounded-button" onClick={props.onClick}>
             {props.label}
         </button>
     )

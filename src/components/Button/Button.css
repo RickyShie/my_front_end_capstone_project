@@ -17,12 +17,13 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-left: 12vw;
     
 }
 
 .rounded-button:hover {
-    background-color: #495E57; /* Darker shade for hover */
-    color: #F4CE14;
+    background-color: #289afd; /* Darker shade for hover */
+    color: white;
 }
 
 .rounded-button:active {

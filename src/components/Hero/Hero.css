@@ -1,0 +1,87 @@
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #495E57;
+    padding-top: 1vh;
+    padding-bottom: 40px;
+}
+
+.hero-title {
+    color: var(--Primary-light-color, #F4CE14);
+
+    /* Display Title */
+    font-family: 'Markazi Text';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 12vw;
+}
+
+.hero-subtitle {
+    color: var(--Secondary-color-3, #EDEFEE);
+
+    /* Sub title */
+    font-family: Markazi Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 12vw;
+}
+
+.hero-description {
+    color: var(--Secondary-color-3, #EDEFEE);
+
+    /* Descriptive items */
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 12vw;
+}
+
+.hero-image {
+    width: 300px;
+    height: auto;
+    margin-left: 12vw;
+    margin-top: 1vh;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+
+@media (min-width: 768px) {
+    .hero-container{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        align-items: start;
+        gap: 1px;
+    }
+
+    .hero-title {
+        color: var(--Primary-light-color, #F4CE14);
+        margin-left: 12vw;
+    }
+    
+    .hero-subtitle {
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+    
+    .hero-description {
+        margin-left: 12vw;
+    }
+
+    .hero-image{
+        margin-top: 5vh;
+    }
+
+    .reservation-button{
+       
+    }
+
+  }
+
