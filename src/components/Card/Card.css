@@ -1,0 +1,57 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #EDEFEE;
+    margin: 20px;
+}
+
+.card-items {
+
+}
+
+.card-image {
+    width: 100%; /* Makes the image take the full width of its container */
+    height: 100%; /* Makes the image take the full height of its container */
+    display: block; /* Removes any unwanted space below the image */
+    object-fit: cover; 
+}
+
+.card-items-title {
+    margin-top: 15px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.card-items-description{
+    margin: 13px;
+}
+
+.card-items-delivery-title {
+    margin: 13px;
+}
+
+.special-title {
+    color: #000;
+    text-overflow: ellipsis;
+    whitespace: nowrap;
+
+    /* Card_title */
+    font-family: Markazi Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90%; /* 21.6px */
+    margin-right: 20px;
+}
+
+.price-tag {
+    color: #EE9972;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
