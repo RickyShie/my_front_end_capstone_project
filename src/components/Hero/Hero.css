@@ -1,87 +1,150 @@
 .hero-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 60px 60px 270px 330px;
     background-color: #495E57;
     padding-top: 1vh;
     padding-bottom: 40px;
+    place-items: start;
+}
+
+.hero-items-title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .hero-title {
     color: var(--Primary-light-color, #F4CE14);
-
-    /* Display Title */
     font-family: 'Markazi Text';
-    font-size: 64px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    margin-left: 12vw;
+    margin-left: 65px;
+}
+
+.hero-items-subtitle {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 .hero-subtitle {
     color: var(--Secondary-color-3, #EDEFEE);
-
-    /* Sub title */
     font-family: Markazi Text;
-    font-size: 40px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-left: 12vw;
+    margin-left: 65px;
+}
+
+.hero-items-description {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 .hero-description {
     color: var(--Secondary-color-3, #EDEFEE);
+    display: block;
+    width: 200px;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 65px;
+    margin-right: 65px; 
+}
 
-    /* Descriptive items */
+.hero-items-image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-left: 65px;
+    border-radius: 8px;
+}
+
+.hero-items-button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+
+/* 
+.hero-title,
+.hero-subtitle,
+.hero-description {
+    margin-left: 12vw;
+    max-width: 800px;
+}
+
+.hero-subtitle {
+    color: var(--Secondary-color-3, #EDEFEE);
+    font-family: Markazi Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hero-description {
+    color: var(--Secondary-color-3, #EDEFEE);
     font-family: Karla;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.hero-items {
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .hero-image {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
-    margin-left: 12vw;
-    margin-top: 1vh;
-    margin-bottom: 10px;
+    margin-left: 10vw;
+    margin-bottom: 2vh;
     border-radius: 8px;
 }
 
+.hero-items .reservation-button {
+    margin-left: 10px;
+} */
 
-@media (min-width: 768px) {
-    .hero-container{
+/* @media (min-width: 768px) {
+    .hero-container {
         grid-template-columns: 1fr 1fr;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        align-items: start;
-        gap: 1px;
     }
 
-    .hero-title {
-        color: var(--Primary-light-color, #F4CE14);
-        margin-left: 12vw;
-    }
-    
-    .hero-subtitle {
-        margin-left: 12vw;
-        margin-right: 12vw;
-    }
-    
+    .hero-title,
+    .hero-subtitle,
     .hero-description {
-        margin-left: 12vw;
+        margin-left: 9vw;
     }
 
-    .hero-image{
-        margin-top: 5vh;
+    .hero-image {
+        max-width: 35vw;
+        margin-top: 7vh;
     }
+}
 
-    .reservation-button{
-       
+@media (min-width: 1376px) {
+    .hero-image {
+        max-width: 500px;
+        margin-top: 7vh;
     }
-
-  }
-
+} */

@@ -5,6 +5,7 @@ import Main from './components/Main';
 import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import Nav from './components/Nav/Nav';
+import Specials from './components/Specials/Specials';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
        </Header>
          <Main>
           <Hero></Hero>
+          <Specials></Specials>
          </Main>
        <Footer></Footer>
       </div>
