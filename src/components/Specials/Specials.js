@@ -17,7 +17,7 @@ function Specials(){
                     This week's specials!
                 </h1>
             </div>
-            <div className="weekly-specials-item-cards">
+            <div className="weekly-specials-item-cards card-grid">
                 {specials.map(special => (
                     <div className="individual-card">
                         <Card key={special.id}

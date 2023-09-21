@@ -1,8 +1,7 @@
 .weekly-specials{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 400px 1100px 100px;
-    background-color: lightblue;
+    grid-template-rows: 80px 400px 900px 100px;
     place-items: start;
 }
 
@@ -38,4 +37,26 @@
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 4;
+}
+
+@media (min-width: 768px) {
+    .weekly-specials{
+        display: grid;
+        height: 80vh;
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows: 50px repeat(3, 430px);
+        margin-left: 80px;
+    }
+    .weekly-specials-item-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .weekly-specials-item-button{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        margin-top: 20px;
+    }
+    
 }

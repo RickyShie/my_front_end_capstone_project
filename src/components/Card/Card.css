@@ -1,22 +1,22 @@
 .card-container {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 270px;
+    max-width: 300px;
+    max-height: 400px;
     overflow: hidden;
     border-radius: 10px;
     background: #EDEFEE;
-    margin: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 17px;
 }
 
-.card-items {
-
-}
 
 .card-image {
-    width: 100%; /* Makes the image take the full width of its container */
-    height: 100%; /* Makes the image take the full height of its container */
+    width: 300px; /* Makes the image take the full width of its container */
+    height: 230px; /* Makes the image take the full height of its container */
+    object-fit: cover;
     display: block; /* Removes any unwanted space below the image */
-    object-fit: cover; 
 }
 
 .card-items-title {

@@ -2,7 +2,7 @@ export const specials = [
     {id: 1, 
      name: "Bruschetta", 
      description: "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
-     imageName: "bruschetta.jpeg",
+     imageName: "bruschetta.png",
      price: 12.99},
     {id: 2, 
      name: "Greek Salad", 
