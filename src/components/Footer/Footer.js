@@ -4,10 +4,10 @@ import './Footer.css'
 function Footer(){
     return (
         <footer className="footer-container">
-            <section className="footer-items">
+            <section className="footer-items-logo">
                 <img className="footer-logo-img" src="/images/footer_logo.png" alt="logo"/>
             </section>
-            <section className="footer-items section-links">
+            <section className="footer-items-section-links">
                 <div className="section-link-items">
                     <ul>
                         <li className="list-title">Doormat Navigation</li>
