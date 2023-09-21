@@ -1,3 +1,32 @@
 .weekly-specials{
-    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 400px 50px;
+    background-color: lightblue;
+    place-items: start;
+}
+
+.weekly-specials-item-title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-left: 65px;
+}
+
+.weekly-specials-title{
+    color: #000;
+    /* Display Title */
+    font-family: Markazi Text;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.weekly-specials-item-button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
 }
