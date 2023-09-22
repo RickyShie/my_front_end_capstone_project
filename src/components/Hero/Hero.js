@@ -9,7 +9,7 @@ function Hero(){
     }
 
     return (
-        <div className="background-wrapper">
+        <div className="hero-background-wrapper">
             <section className="hero-container">
                 <div className="hero-items-title">
                     <h1 className="hero-title">Little Lemon</h1>

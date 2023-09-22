@@ -8,7 +8,7 @@ function Footer(){
                 <img className="footer-logo-img" src="/images/footer_logo.png" alt="logo"/>
             </section>
             <section className="footer-items-section-links">
-                <div className="section-link-items">
+                <div className="section-link-items doormat">
                     <ul>
                         <li className="list-title">Doormat Navigation</li>
                         <li className="list-item"><a href="/">Home</a></li>
@@ -19,7 +19,7 @@ function Footer(){
                         <li className="list-item"><a href="/login">Login</a></li>
                     </ul>
                 </div>
-                <div className="section-link-items">
+                <div className="section-link-items contact">
                     <ul>
                         <li className="list-title">Contact</li>
                         <li className="list-item"><a href="#">Address</a></li>
@@ -27,7 +27,7 @@ function Footer(){
                         <li className="list-item"><a href="#">Email</a></li>
                     </ul>
                 </div>
-                <div className="section-link-items">
+                <div className="section-link-items social-media">
                     <ul>
                         <li className="list-title">Social Media Links</li>
                         <li className="list-item"><a href="#">Facebook</a></li>
